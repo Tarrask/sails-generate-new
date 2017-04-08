@@ -1,7 +1,7 @@
 {
-  "name": "sails-generate-new",
-  "version": "0.10.29",
-  "description": "Generate a new Sails app.",
+  "name": "sails-generate-new-webpack-vue",
+  "version": "0.1.0",
+  "description": "Generate a new Sails app using webpack and vue.js.",
   "main": "lib/index.js",
   "scripts": {
     "test": "echo 'See tests in the GitHub repo for Sails core."
@@ -15,17 +15,21 @@
     "generate",
     "plugin"
   ],
-  "author": "Mike McNeil",
+  "repository": "https://github.com/tarrask/sails-generate-new-webpack-vue",
+  "author": "Damien Plumettaz",
   "license": "MIT",
   "dependencies": {
     "async": "2.0.1",
     "cross-spawn": "4.0.2",
+    "findup-sync": "^0.4.3",
     "fs-extra": "0.30.0",
-    "lodash": "3.10.1"
+    "lodash": "3.10.1",
+    "sails-generate-frontend-webpack-vue": "git@github.com:Tarrask/sails-generate-frontend-webpack-vue.git",
+    "sails-generate-webpack-vue": "git@github.com:Tarrask/sails-generate-webpack-vue.git"
   },
   "sailsGenerator": {
     "type": "new",
-    "behavior": "Default implementation of `sails new`",
-    "sailsVersion": "^1.0.0"
+    "behavior": "Custom implementation of `sails new`",
+    "sailsVersion": "^0.12.8"
   }
 }
