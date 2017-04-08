@@ -24,8 +24,8 @@
     "findup-sync": "^0.4.3",
     "fs-extra": "0.30.0",
     "lodash": "3.10.1",
-    "sails-generate-frontend-webpack-vue": "git@github.com:Tarrask/sails-generate-frontend-webpack-vue.git",
-    "sails-generate-webpack-vue": "git@github.com:Tarrask/sails-generate-webpack-vue.git"
+    "sails-generate-frontend-webpack-vue": "0.1.0",
+    "sails-generate-webpack-vue": "0.1.0"
   },
   "sailsGenerator": {
     "type": "new",
