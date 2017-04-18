@@ -1,6 +1,6 @@
 {
   "name": "sails-generate-new-webpack-vue",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Generate a new Sails app using webpack and vue.js.",
   "main": "lib/index.js",
   "scripts": {
@@ -25,7 +25,7 @@
     "fs-extra": "0.30.0",
     "lodash": "3.10.1",
     "sails-generate-frontend-webpack-vue": "0.1.0",
-    "sails-generate-webpack-vue": "0.1.0"
+    "sails-generate-webpack-vue": "0.1.1"
   },
   "sailsGenerator": {
     "type": "new",
